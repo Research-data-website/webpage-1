@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    
+    <title>PyScript Test</title>
+
+</head>
+
+<style>
+    .button:hover {
+        background-color: #af8c4c; /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    .set_shadow {
+        box-shadow: 0 8px 16px 0 rgba(250, 134, 2, 0.2), 0 6px 20px 0 rgba(134, 23, 23, 0.19);
+    }
+    .customFont {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        color: antiquewhite;
+    }
+    .text_shadow_blur {
+        text-shadow: 2px 2px 8px #ffffff;
+    }
+    .set_box_shadow_for_pyTerminal {
+        box-shadow: #ffffff;
+    }
+    
+</style>
+
+<body style="background-image: url('https://raw.githubusercontent.com/Research-Data-Laboratory/jupyterwebsite/main/2019055.jpg');">
+    <header class="customFont text_shadow_blur central-content">
+        PyScript Test
+    </header>
+    <py-script class="py-repl-editor">
+        print("Welcome to PyScript")
+      </py-script>
+    <button class="button set_shadow" onclick="location.href='https://research-data-laboratory.github.io/jupyterwebsite/sc.html'">
+        Scientific Statista
+    </button>
+    
+</body>
+</html>
