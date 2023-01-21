@@ -7,16 +7,44 @@
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
     
-    <title>Using PyScript</title>
+    <title>PyScript Test</title>
+
 </head>
+
+<style>
+    .button:hover {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    .button_shadow {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .customFont {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .text_shadow_blur {
+        text-shadow: 2px 2px 8px #ffffff;
+    }
+</style>
+
 <body>
-    <header>
+    <header class="customFont text_shadow_blur">
         PyScript Test
     </header>
     <py-script>
         print("PyScript")
       </py-script>
-    <button href="https://research-data-laboratory.github.io/jupyterwebsite/sc.html">
+    <button role="button" class="button button_shadow" onclick="href='https://research-data-laboratory.github.io/jupyterwebsite/sc.html'">
         Scientific Statista
     </button>
     
