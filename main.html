@@ -14,6 +14,13 @@
 </head>
 
 <style>
+    @keyframes changeOpacity {
+        0%   {opacity: 0%;}
+        25%  {opacity: 25%;}
+        50%  {opacity: 50%;}
+        75%  {opacity: 75%;}
+        100% {opacity: 100%;}
+    }
     @keyframes colorChange {
         from {background-color: rgb(255, 255, 255);}
         to {background-color: rgb(240, 140, 9);}
@@ -80,7 +87,7 @@
         </div>
       </div>
       
-    <header class="customFont text_shadow_blur customText colorChanger">
+    <header class="customFont text_shadow_blur customText changeOpacity">
         Projekt Hochleistungscomputer
     </header>
 
