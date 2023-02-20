@@ -14,16 +14,20 @@
 </head>
 
 <style>     
-    @keyframes colorChange {
-        from {color: antiquewhite; left: 0%;}
-        to {color: #000ba3; right: 100%;}
-    }
-    .colorChanger {
-        color: #ffffff;
-        animation-name: colorChange;
-        animation-duration: 15s;
-        animation-iteration-count: 3;
-    }
+    .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1e8df4;
+    border: none;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }  
     .dropdown {
         position: relative;
         display: inline-block;
@@ -80,7 +84,7 @@
         </div>
       </div>
       
-    <header class="customFont text_shadow_blur customText colorChanger">
+    <header class="customFont text_shadow_blur customText">
         Projekt Hochleistungscomputer
     </header>
 
